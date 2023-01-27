@@ -1,9 +1,12 @@
 const PI = 3.14
 
 var is scoped to the entire function. var can be redeclared and reassigned. var is hoisted. var is saved to the windows.
-
 let is block scoped. let can be reassigned but not redeclared. let is not hoisted. let is not saved to windows. 
 
+var is scoped to the entire function. var can be redeclared and reassigned. var is hoisted. var is saved to the windows.
+const is block scoped. const can neither be redeclared or reassigned. cons is not hoisted. const is not saved to windows. 
+
+let is block scoped. let can be reassigned but not redeclared. let is not hoisted. let is not saved to windows.
 const is block scoped. const can neither be redeclared or reassigned. cons is not hoisted. const is not saved to windows. 
 
 hoisting is when variables are read before the rest of code. However, they are not defined.
